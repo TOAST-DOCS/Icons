@@ -1,4 +1,4 @@
-# nhncloud-archi
+# nhn-cloud-drawio
 
 말로 설명하면 **NHN Cloud 아키텍처 구성도**를 그려 주는 Claude Code 스킬입니다.
 도형은 전부 [NHN Cloud 아이콘 라이브러리](https://nhn-cloud.github.io/Icons/)에서 가져옵니다.
@@ -18,16 +18,16 @@
 **Windows (PowerShell)**
 
 ```powershell
-git clone https://github.com/TOAST-DOCS/Icons "$env:USERPROFILE\.claude\skills\nhncloud-archi"
+git clone https://github.com/TOAST-DOCS/Icons "$env:USERPROFILE\.claude\skills\nhn-cloud-drawio"
 ```
 
 **macOS · Linux**
 
 ```bash
-git clone https://github.com/TOAST-DOCS/Icons ~/.claude/skills/nhncloud-archi
+git clone https://github.com/TOAST-DOCS/Icons ~/.claude/skills/nhn-cloud-drawio
 ```
 
-폴더 이름 `nhncloud-archi` 가 곧 스킬 이름입니다. **그대로 두세요.**
+폴더 이름 `nhn-cloud-drawio` 가 곧 스킬 이름입니다. **그대로 두세요.**
 Claude Code 를 새로 열면 목록에 나타납니다.
 
 ## 쓰는 법
@@ -62,7 +62,7 @@ Claude Code 를 새로 열면 목록에 나타납니다.
 ## 업데이트
 
 ```powershell
-cd "$env:USERPROFILE\.claude\skills\nhncloud-archi"
+cd "$env:USERPROFILE\.claude\skills\nhn-cloud-drawio"
 git pull
 ```
 
@@ -71,7 +71,7 @@ git pull
 폴더를 지우면 끝입니다.
 
 ```powershell
-Remove-Item -Recurse "$env:USERPROFILE\.claude\skills\nhncloud-archi"
+Remove-Item -Recurse "$env:USERPROFILE\.claude\skills\nhn-cloud-drawio"
 ```
 
 ## 직접 실행 (스킬 없이)
@@ -79,7 +79,7 @@ Remove-Item -Recurse "$env:USERPROFILE\.claude\skills\nhncloud-archi"
 Claude 를 거치지 않고 명령으로도 쓸 수 있습니다.
 
 ```powershell
-$SKILL = "$env:USERPROFILE\.claude\skills\nhncloud-archi"
+$SKILL = "$env:USERPROFILE\.claude\skills\nhn-cloud-drawio"
 
 python "$SKILL\nhn_diagram.py" --list 로드밸런        # 아이콘 이름 찾기
 python "$SKILL\nhn_diagram.py" spec.yaml out.drawio   # 명세 -> 그림

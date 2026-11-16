@@ -1,5 +1,5 @@
 ---
-name: nhncloud-archi
+name: nhn-cloud-drawio
 description: 사용자가 말이나 글로 설명한 NHN Cloud 아키텍처 구성도를 draw.io 파일(.drawio)로 그려 브라우저 draw.io 편집기로 열어 준다. "구성도 그려줘", "아키텍처 다이어그램", "3-tier 구성도", "이 구성 그림으로", "drawio로 만들어줘" 같은 요청에 사용한다. 도형은 NHN Cloud 아이콘 라이브러리(https://nhn-cloud.github.io/Icons/)의 실제 팔레트에서만 가져오며, 라이브러리에 없는 아이콘은 지어내지 않는다.
 ---
 
@@ -13,11 +13,11 @@ description: 사용자가 말이나 글로 설명한 NHN Cloud 아키텍처 구�
 도구는 이 스킬 폴더 안에 있다. 아래 경로를 쓴다.
 
 ```powershell
-$SKILL = "$env:USERPROFILE\.claude\skills\nhncloud-archi"
+$SKILL = "$env:USERPROFILE\.claude\skills\nhn-cloud-drawio"
 ```
 
 ```bash
-SKILL=~/.claude/skills/nhncloud-archi
+SKILL=~/.claude/skills/nhn-cloud-drawio
 ```
 
 다른 위치에 설치했다면 그 경로로 바꾼다. 작업 폴더는 **사용자의 현재 폴더**를 그대로 쓴다.
